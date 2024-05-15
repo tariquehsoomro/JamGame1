@@ -5,6 +5,7 @@ public class Singleton : MonoBehaviour
     public static Singleton Instance { get; private set; }
 
     public ObjectPoolManager ObjectPoolManager;
+    public ProjectEssentials ProjectEssentials;
 
     private void Awake()
     {
